@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/iserror/issues"
   },
-  "homepage": "https://github.com/FormulaPages/iserror#readme"
+  "homepage": "https://github.com/FormulaPages/iserror#readme",
+  "dependencies": {
+    "formula-errors": "^1.0.0"
+  }
 }
