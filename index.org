@@ -1,6 +1,6 @@
 #+TITLE: formula-iserror
 
-#+BEGIN_SRC js :tangle index.es6
+#+BEGIN_SRC js :tangle ISERROR.es6
   import error from 'formula-errors';
   import ISERR from 'formula-iserr';
   export default function isError(value) {
@@ -9,5 +9,8 @@
 #+END_SRC
 
 #+BEGIN_SRC sh :exports none
-  babel index.es6 -m umd --out-file index.js
+  babel ISERROR.es6 -m umd --out-file index.js
 #+END_SRC
+
+#+RESULTS:
+

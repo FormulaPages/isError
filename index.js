@@ -8,7 +8,7 @@
             exports: {}
         };
         factory(mod.exports, mod, global.error, global.ISERR);
-        global.index = mod.exports;
+        global.ISERROR = mod.exports;
     }
 })(this, function (exports, module, _formulaErrors, _formulaIserr) {
     'use strict';
